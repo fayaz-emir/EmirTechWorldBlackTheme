@@ -5,7 +5,7 @@
   --tw-bg-opacity: 1;
 
   /* -------------------- base define -------------------- */
-  --rabby-light-blue-default: rgba(76, 101, 255, 1);
+  --rabby-light-blue-default: rgba(0, 0, 0, 1);
   --rabby-light-blue-light1: rgba(237, 240, 255, 1);
   --rabby-light-blue-light-1: rgba(237, 240, 255, 1);
   --rabby-light-blue-light2: rgba(219, 224, 255, 1);
@@ -50,7 +50,7 @@
   --rabby-light-sonic-background: rgba(245, 245, 245, 1);
   --rabby-light-sonic-foreground: rgba(0, 0, 0, 1);
 
-  --rabby-dark-blue-default: rgba(76, 101, 255, 1);
+  --rabby-dark-blue-default: rgba(0, 0, 0, 1);
   --rabby-dark-blue-light1: rgba(33, 38, 64, 1);
   --rabby-dark-blue-light-1: rgba(33, 38, 64, 1);
   --rabby-dark-blue-light2: rgba(38, 45, 85, 1);
@@ -98,7 +98,7 @@
 
 :root {
   /* -------------------- light mode -------------------- */
-  --r-blue-default-rgb: 76, 101, 255;
+  --r-blue-default-rgb: 0, 0, 0;
   --r-blue-default: var(--rabby-light-blue-default);
   --r-blue-light1-rgb: 237, 240, 255;
   --r-blue-light1: var(--rabby-light-blue-light1);
@@ -108,7 +108,7 @@
   --r-blue-light2: var(--rabby-light-blue-light2);
   --r-blue-light-2-rgb: 219, 224, 255;
   --r-blue-light-2: var(--rabby-light-blue-light-2);
-  --r-blue-disable-rgb: 165, 178, 255;
+  --r-blue-disable-rgb: 224, 229, 236;
   --r-blue-disable: var(--rabby-light-blue-disable);
   --r-green-default-rgb: 42, 187, 127;
   --r-green-default: var(--rabby-light-green-default);
@@ -190,7 +190,7 @@
 
 html.dark, body.dark {
   /* -------------------- dark mode -------------------- */
-  --r-blue-default-rgb: 76, 101, 255;
+  --r-blue-default-rgb: 0, 0, 0;
   --r-blue-default: var(--rabby-dark-blue-default);
   --r-blue-light1-rgb: 33, 38, 64;
   --r-blue-light1: var(--rabby-dark-blue-light1);

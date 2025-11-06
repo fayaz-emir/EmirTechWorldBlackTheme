@@ -422,7 +422,7 @@ const SelectTips = styled.div`
   width: 150px;
   height: 32px;
   color: #fff;
-  background: var(--r-blue-default, #7084ff);
+  background: var(--r-blue-default, #000000);
   border-radius: 4px;
   font-weight: 500;
   font-size: 20px;

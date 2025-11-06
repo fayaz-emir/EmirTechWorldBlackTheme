@@ -36,11 +36,11 @@ const Container = styled.div`
   &.site-group:hover {
     .site-icon-container.is-support {
       cursor: pointer;
-      border: 1px solid var(--r-blue-default, #7084ff);
+      border: 1px solid var(--r-blue-default, #000000);
       background: var(--r-blue-light1, #eef1ff);
     }
     .global-account-selector:not(.is-disabled) {
-      border: 1px solid var(--r-blue-default, #7084ff);
+      border: 1px solid var(--r-blue-default, #000000);
       background: var(--r-blue-light1, #eef1ff);
     }
     .site-status-icon {
@@ -88,7 +88,7 @@ const Container = styled.div`
 
       &.is-support:hover {
         cursor: pointer;
-        border: 1px solid var(--r-blue-default, #7084ff);
+        border: 1px solid var(--r-blue-default, #000000);
         background: var(--r-blue-light1, #eef1ff);
       }
     }

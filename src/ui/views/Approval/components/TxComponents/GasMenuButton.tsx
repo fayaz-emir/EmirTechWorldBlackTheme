@@ -31,7 +31,7 @@ const MenuButtonStyled = styled.div`
   cursor: pointer;
 
   &:hover {
-    border-color: var(--r-blue-default, #7084ff);
+    border-color: var(--r-blue-default, #000000);
     background: var(--r-blue-light1, #eef1ff);
   }
 `;
