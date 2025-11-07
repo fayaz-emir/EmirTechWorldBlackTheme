@@ -2011,7 +2011,7 @@
         },
         "waiting": "Waiting",
         "clickToGetInfo": "Click to get the information on-chain",
-        "addToRabby": "Add to AstraAsync",
+        "addToRabby": "Add to AstraSync",
         "basicInformation": "Basic information",
         "addresses": "Addresses",
         "loadingAddress": "Loading {{0}}/{{1}} addresses",
@@ -2123,7 +2123,7 @@
         "manageNgraveZero": "Manage NGRAVE ZERO",
         "done": "Done",
         "addressesIn": "Addresses in {{0}}",
-        "addressesInRabby": "Addresses in AstraAsync{{0}}",
+        "addressesInRabby": "Addresses in AstraSync{{0}}",
         "qrCode": {
           "switch": {
             "title": "Switch to a new {{0}} device",
