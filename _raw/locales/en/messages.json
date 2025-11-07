@@ -1415,14 +1415,13 @@
           "transactions": "Transactions",
           "approvals": "Approvals",
           "feedback": "Feedback",
-          "rabbyPoints": "Rabby Points",
           "more": "More",
           "manageAddress": "Manage Address",
           "nft": "NFT",
           "ecology": "Ecosystem",
           "bridge": "Bridge",
           "perps": "Perps",
-          "mobile": "Mobile Sync",
+          
           "gasAccount": "GasAccount",
           "setting": "Setting",
           "searchDapp": "Search Dapp",
@@ -1582,7 +1581,6 @@
           "connectedDapp": "Connected Dapps",
           "searchDapps": "Search Dapps",
           "gasTopUp": "Gas Top Up",
-          "rabbyPoints": "Rabby Points",
           "ecosystem": "Ecosystem"
         },
         "settings": {
@@ -1595,7 +1593,6 @@
           "toggleThemeMode": "Theme Mode",
           "themeMode": "Theme Mode",
           "customTestnet": "Add Custom Network",
-          "metamaskMode": "Connect Rabby by Disguising as MetaMask",
           "enableDappAccount": "Switch Dapp Address Independently"
         },
         "aboutUs": "About us",

@@ -773,23 +773,23 @@ const SettingsInner = ({ visible, onClose }: SettingsProps) => {
             reportSettings('Manage Address');
           },
         },
-        {
-          leftIcon: RcIconEcosystemCC,
-          leftIconClassName: 'text-r-neutral-body',
-          content: t('page.dashboard.settings.features.ecosystem'),
-          onClick: () => {
-            setIsShowEcologyModal(true);
-          },
-        },
-        {
-          leftIcon: RcIconRabbyMobileCC,
-          leftIconClassName: 'text-r-neutral-body w-24 h-24',
-          leftIconStyle: { marginRight: '-2px', marginLeft: '-2px' },
-          content: t('page.dashboard.home.panel.mobile'),
-          onClick: () => {
-            openInternalPageInTab('sync');
-          },
-        },
+        // {
+        //   leftIcon: RcIconEcosystemCC,
+        //   leftIconClassName: 'text-r-neutral-body',
+        //   content: t('page.dashboard.settings.features.ecosystem'),
+        //   onClick: () => {
+        //     setIsShowEcologyModal(true);
+        //   },
+        // },
+        // {
+        //   leftIcon: RcIconRabbyMobileCC,
+        //   leftIconClassName: 'text-r-neutral-body w-24 h-24',
+        //   leftIconStyle: { marginRight: '-2px', marginLeft: '-2px' },
+        //   content: t('page.dashboard.home.panel.mobile'),
+        //   onClick: () => {
+        //     openInternalPageInTab('sync');
+        //   },
+        // },
         // {
         //   leftIcon: RcIconPoints,
         //   content: t('page.dashboard.settings.features.rabbyPoints'),
@@ -797,24 +797,24 @@ const SettingsInner = ({ visible, onClose }: SettingsProps) => {
         //     history.push('/rabby-points');
         //   },
         // },
-        {
-          leftIcon: RcIconSettingsSearchDapps,
-          content: t('page.dashboard.settings.features.searchDapps'),
-          onClick: () => {
-            matomoRequestEvent({
-              category: 'Setting',
-              action: 'clickToUse',
-              label: 'Search Dapps',
-            });
+        // {
+        //   leftIcon: RcIconSettingsSearchDapps,
+        //   content: t('page.dashboard.settings.features.searchDapps'),
+        //   onClick: () => {
+        //     matomoRequestEvent({
+        //       category: 'Setting',
+        //       action: 'clickToUse',
+        //       label: 'Search Dapps',
+        //     });
 
-            ga4.fireEvent('More_SearchDapps', {
-              event_category: 'Click More',
-            });
+        //     ga4.fireEvent('More_SearchDapps', {
+        //       event_category: 'Click More',
+        //     });
 
-            reportSettings('Search Dapps');
-            openInternalPageInTab('dapp-search');
-          },
-        },
+        //     reportSettings('Search Dapps');
+        //     openInternalPageInTab('dapp-search');
+        //   },
+        // },
         {
           leftIcon: RcIconSettingsFeatureConnectedDapps,
           content: t('page.dashboard.settings.features.connectedDapp'),
@@ -950,28 +950,28 @@ const SettingsInner = ({ visible, onClose }: SettingsProps) => {
             </>
           ),
         },
-        {
-          leftIcon: RcIconPreferMetamask,
-          content: (
-            <div className="text-[13px]">
-              {t('page.dashboard.settings.settings.metamaskMode')}
-            </div>
-          ),
-          onClick: () => {
-            history.push('/metamask-mode-dapps');
-            matomoRequestEvent({
-              category: 'Setting',
-              action: 'clickToUse',
-              label: 'MetaMask Mode Dapps',
-            });
+        // {
+        //   leftIcon: RcIconPreferMetamask,
+        //   content: (
+        //     <div className="text-[13px]">
+        //       {t('page.dashboard.settings.settings.metamaskMode')}
+        //     </div>
+        //   ),
+        //   onClick: () => {
+        //     history.push('/metamask-mode-dapps');
+        //     matomoRequestEvent({
+        //       category: 'Setting',
+        //       action: 'clickToUse',
+        //       label: 'MetaMask Mode Dapps',
+        //     });
 
-            ga4.fireEvent('More_MetaMaskModeDapps', {
-              event_category: 'Click More',
-            });
+        //     ga4.fireEvent('More_MetaMaskModeDapps', {
+        //       event_category: 'Click More',
+        //     });
 
-            reportSettings('MetaMask Mode Dapps');
-          },
-        },
+        //     reportSettings('MetaMask Mode Dapps');
+        //   },
+        // },
         {
           leftIcon: RcIconAutoLock,
           content: t('page.dashboard.settings.autoLockTime'),
@@ -1396,7 +1396,7 @@ const SettingsInner = ({ visible, onClose }: SettingsProps) => {
         })}
       </div>
       <footer className="footer">
-        <div className="px-8 py-2 rounded hover:bg-r-blue-light-1 inline-block">
+        {/* <div className="px-8 py-2 rounded hover:bg-r-blue-light-1 inline-block">
           <img
             className="inline-block cursor-pointer"
             src={LogoRabby}
@@ -1405,7 +1405,7 @@ const SettingsInner = ({ visible, onClose }: SettingsProps) => {
               openInTab('https://rabby.io', false);
             }}
           />
-        </div>
+        </div> */}
       </footer>
       <Contacts
         visible={contactsVisible}

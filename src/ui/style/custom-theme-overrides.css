@@ -22,3 +22,7 @@
     border-color: var(--r-blue-default, #000000);
     color: white !important;
 }
+
+.popup-settings .field:hover {
+  background-color: #d9dbde !important;
+} 

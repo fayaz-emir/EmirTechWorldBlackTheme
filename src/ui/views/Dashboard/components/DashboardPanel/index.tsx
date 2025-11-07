@@ -347,22 +347,22 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
         </div>
       ) : null,
     } as IPanelItem,
-    points: {
-      icon: RcIconPointsCC,
-      eventKey: 'Rabby Points',
-      content: t('page.dashboard.home.panel.rabbyPoints'),
-      onClick: () => {
-        setIsShowRabbyPoints(true);
-      },
-    } as IPanelItem,
-    mobile: {
-      icon: RcIconMobileSyncCC,
-      eventKey: 'Rabby Mobile',
-      content: t('page.dashboard.home.panel.mobile'),
-      onClick: () => {
-        openInternalPageInTab('sync');
-      },
-    } as IPanelItem,
+    // points: {
+    //   icon: RcIconPointsCC,
+    //   eventKey: 'Rabby Points',
+    //   content: t('page.dashboard.home.panel.rabbyPoints'),
+    //   onClick: () => {
+    //     setIsShowRabbyPoints(true);
+    //   },
+    // } as IPanelItem,
+    // mobile: {
+    //   icon: RcIconMobileSyncCC,
+    //   eventKey: 'Rabby Mobile',
+    //   content: t('page.dashboard.home.panel.mobile'),
+    //   onClick: () => {
+    //     openInternalPageInTab('sync');
+    //   },
+    // } as IPanelItem,
     perps: {
       icon: RcIconPerpsCC,
       eventKey: 'Perps',
@@ -393,14 +393,14 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
         history.push('/perps');
       },
     } as IPanelItem,
-    searchDapp: {
-      icon: RcIconSearchCC,
-      eventKey: 'Search Dapp',
-      content: t('page.dashboard.home.panel.searchDapp'),
-      onClick: () => {
-        openInternalPageInTab('dapp-search');
-      },
-    } as IPanelItem,
+    // searchDapp: {
+    //   icon: RcIconSearchCC,
+    //   eventKey: 'Search Dapp',
+    //   content: t('page.dashboard.home.panel.searchDapp'),
+    //   onClick: () => {
+    //     openInternalPageInTab('dapp-search');
+    //   },
+    // } as IPanelItem,
     dapps: {
       icon: RcIconDappsCC,
       eventKey: 'Dapps ',
@@ -429,11 +429,11 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
           'transactions',
           'security',
           'perps',
-          'points',
-          'mobile',
+          //'points',
+          //'mobile',
           'nft',
           'gasAccount',
-          'searchDapp',
+          //'searchDapp',
           'dapps',
           'manageAddress',
           'more',
@@ -446,11 +446,11 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
           'transactions',
           'security',
           'perps',
-          'points',
-          'mobile',
+          //'points',
+          //'mobile',
           'nft',
           'gasAccount',
-          'searchDapp',
+          //'searchDapp',
           'dapps',
           'manageAddress',
           'more',
