@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from '@/ui/component/NewUserImport';
 import rabbyLogo from '@/ui/assets/unlock/rabby.svg';
+import AstraSync from '@/ui/assets/unlock/AstraSync.svg';
 import { Button } from 'antd';
 import clsx from 'clsx';
 import { useHistory } from 'react-router-dom';
@@ -35,7 +36,7 @@ export const Guide = () => {
       }
     >
       <div className="flex flex-col items-center">
-        <img src={rabbyLogo} className="mt-[100px] w-[100px] h-[100px]" />
+        <img src={AstraSync} className="mt-[100px] w-[100px] h-[100px]" />
         <div className="my-12 text-24 font-medium text-r-neutral-title1">
           {t('page.newUserImport.guide.title')}
         </div>

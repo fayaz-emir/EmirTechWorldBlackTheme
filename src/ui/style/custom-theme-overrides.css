@@ -1,0 +1,24 @@
+:root {
+  /* Override generated blue with black */
+  --r-blue-default: var(--rabby-light-neutral-black);
+  --r-blue-default-rgb: 0, 0, 0;
+  --r-blue-light-1-rgb: 45, 45, 45;
+  --r-blue-light1-rgb: 45, 45, 45;
+  --r-blue-light2-rgb: 45, 45, 45;
+  --r-blue-light-2-rgb: 45, 45, 45;
+
+  --rabby-dark-blue-disable: rgba(40, 40, 40, 1);
+  --rabby-light-blue-disable: rgba(40, 40, 40, 1);
+  --rabby-light-neutral-body: rgba(25, 25, 25, 1);
+
+  /* Optional: if something still references the light blue directly */
+  --rabby-light-blue-default: rgba(0, 0, 0, 1);
+  --rabby-light-blue-light1: rgba(0, 0, 0, 0.1);
+  --rabby-light-blue-light-1: rgba(0, 0, 0, 0.1);
+}
+
+.vwxEW:hover {
+    background-color: var(--r-blue-default, #000000) !important;
+    border-color: var(--r-blue-default, #000000);
+    color: white !important;
+}

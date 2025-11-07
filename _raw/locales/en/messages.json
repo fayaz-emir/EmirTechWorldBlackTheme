@@ -2816,8 +2816,8 @@
     },
     "newUserImport": {
       "guide": {
-        "title": "Welcome to Rabby Wallet",
-        "desc": "Your go-to wallet for Ethereum and EVM",
+        "title": "AstraSync",
+        "desc": "Wallet for your Agents",
         "createNewAddress": "Create a new address",
         "importAddress": "I already have an address"
       },
