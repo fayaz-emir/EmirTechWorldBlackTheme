@@ -1251,7 +1251,7 @@
       "feedback": {
         "directMessage": {
           "content": "다이렉트 메시지",
-          "description": "DeBank에서 Rabby Wallet 공식 채팅하기"
+          "description": "DeBank에서 AstraSync Wallet 공식 채팅하기"
         },
         "proposal": {
           "content": "제안",
@@ -1295,7 +1295,7 @@
         "viewYourClaimCode": "DeBank에서 청구 코드를 확인하세요.",
         "freeGasTip": "트랜잭션을 Free Gas를 사용하여 서명해 주세요. 가스가 부족할 때 'Free Gas' 버튼이 자동으로 나타납니다.",
         "freeGasNoCode": "아래 버튼을 클릭하여 DeBank를 방문하고 현재 주소를 사용하여 클레임 코드를 가져오세요.",
-        "swapTip": "Rabby Wallet 내에서 주목할 만한 dex와 스왑을 완료해야 합니다.",
+        "swapTip": "AstraSync Wallet 내에서 주목할 만한 dex와 스왑을 완료해야 합니다.",
         "freeGasTitle": "무료 가스 배지를 요청하세요"
       },
       "contacts": {
@@ -2632,10 +2632,10 @@
         "import": "성공적으로 가져왔습니다"
       },
       "readyToUse": {
-        "pin": "Rabby Wallet 핀 고정",
+        "pin": "AstraSync Wallet 핀 고정",
         "guides": {
           "step1": "브라우저 확장 아이콘을 클릭하세요.",
-          "step2": "Rabby Wallet 고정하기"
+          "step2": "AstraSync Wallet 고정하기"
         },
         "title": "당신의 Rabby Wallet이 준비되었습니다!",
         "desc": "Rabby Wallet을 찾아 고정하세요.",
@@ -2728,14 +2728,14 @@
           "hardware": "가져온 하드웨어 지갑",
           "safe": "수입된 Safe Wallets"
         },
-        "title": "Rabby Wallet 초기화",
+        "title": "AstraSync Wallet 초기화",
         "button": "재설정 확인",
         "confirm": "<1>RESET</1>를 확인하고 진행하려면 상자에 입력하세요."
       },
       "tip": {
         "descriptionNoData": "주소를 추가하여 시작하세요",
         "buttonNoData": "주소 추가",
-        "title": "Rabby Wallet 초기화 완료",
+        "title": "AstraSync Wallet 초기화 완료",
         "description": "새 비밀번호를 생성하여 계속하세요",
         "button": "비밀번호 설정"
       },

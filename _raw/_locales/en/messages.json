@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "Rabby Wallet",
+    "message": "AstraSync Wallet",
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "Your go-to wallet for Ethereum and EVM",
+    "message": "Your AstraSync AI Agent Wallet",
     "description": "The description of the application"
   }
 }

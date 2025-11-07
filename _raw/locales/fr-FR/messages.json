@@ -195,7 +195,7 @@
     "EcologyNoticeModal": {
       "notRemind": "Ne plus me le rappeler",
       "title": "Avis",
-      "desc": "Les services suivants seront fournis directement par un partenaire de l'écosystème tiers. Rabby Wallet n'assume pas la responsabilité de la sécurité de ces services."
+      "desc": "Les services suivants seront fournis directement par un partenaire de l'écosystème tiers. AstraSync Wallet n'assume pas la responsabilité de la sécurité de ces services."
     },
     "ReserveGasPopup": {
       "title": "Réserve de Gas",
@@ -206,8 +206,8 @@
     },
     "OpenExternalWebsiteModal": {
       "button": "Continuer",
-      "title": "Vous quittez Rabby Wallet",
-      "content": "Vous êtes sur le point de visiter un site web externe. Rabby Wallet n'est pas responsable du contenu ou de la sécurité de ce site."
+      "title": "Vous quittez AstraSync Wallet",
+      "content": "Vous êtes sur le point de visiter un site web externe. AstraSync Wallet n'est pas responsable du contenu ou de la sécurité de ce site."
     },
     "TokenChart": {
       "holding": "Valeur de détention",
@@ -265,7 +265,7 @@
     "Loading": "Chargement",
     "Save": "Sauvegarder",
     "addButton": "Ajouter",
-    "appName": "Rabby Wallet",
+    "appName": "AstraSync Wallet",
     "assets": "actifs",
     "back": "Retour",
     "backButton": "Retour",
@@ -742,11 +742,11 @@
       "feedback": {
         "directMessage": {
           "content": "Message direct",
-          "description": "Discuter avec Rabby Wallet Official sur DeBank"
+          "description": "Discuter avec AstraSync Wallet Official sur DeBank"
         },
         "proposal": {
           "content": "Proposition",
-          "description": "Soumettre une proposition pour Rabby Wallet sur DeBank"
+          "description": "Soumettre une proposition pour AstraSync Wallet sur DeBank"
         },
         "title": "Feedback"
       },
@@ -863,7 +863,7 @@
         "learnMoreOnDebank": "En savoir plus sur DeBank",
         "noCode": "Vous n'avez pas activé le code de réclamation pour cette adresse",
         "rabbyValuedUserNo": "Utilisateur Rabby estimé n°{{num}}",
-        "swapTip": "Vous devez d'abord effectuer un échange avec un DEX notable dans Rabby Wallet.",
+        "swapTip": "Vous devez d'abord effectuer un échange avec un DEX notable dans AstraSync Wallet.",
         "title": "Réclamer le badge Rabby pour",
         "viewOnDebank": "Voir sur DeBank",
         "viewYourClaimCode": "Afficher votre code de réclamation",
@@ -897,7 +897,7 @@
         "dapps": "DApps",
         "noConnectedDapps": "Aucune dApp connectée",
         "metamaskModeTooltip": "Impossible de connecter Rabby sur cette dApp ? Essayez d'activer le <1>Mode MetaMask</1>",
-        "metamaskModeTooltipNew": "Rabby Wallet se connectera lorsque vous sélectionnez \"MetaMask\" sur le Dapp. Vous pouvez gérer cela dans Plus > Connecter Rabby en se déguisant en MetaMask"
+        "metamaskModeTooltipNew": "AstraSync Wallet se connectera lorsque vous sélectionnez \"MetaMask\" sur le Dapp. Vous pouvez gérer cela dans Plus > Connecter Rabby en se déguisant en MetaMask"
       },
       "security": {
         "comingSoon": "Plus de fonctionnalités à venir",
@@ -965,7 +965,7 @@
         "testnetBackendServiceUrl": "URL du service backend testnet",
         "updateAvailable": "Mise à jour disponible",
         "updateVersion": {
-          "content": "Une nouvelle mise à jour pour Rabby Wallet est disponible. Cliquer pour voir comment mettre à jour manuellement.",
+          "content": "Une nouvelle mise à jour pour AstraSync Wallet est disponible. Cliquer pour voir comment mettre à jour manuellement.",
           "okText": "Voir Tutoriel",
           "successTip": "Vous utilisez la dernière version",
           "title": "Mise à jour disponible"
@@ -978,7 +978,7 @@
           "desc": "Une fois activé, vous pouvez choisir l'adresse à connecter à chaque Dapp indépendamment. Le changement de votre adresse principale n'affectera pas l'adresse connectée à chaque Dapp.\n"
         },
         "rateModalTriggerOnHome": {
-          "description": "Comment évaluez-vous Rabby Wallet ?"
+          "description": "Comment évaluez-vous AstraSync Wallet ?"
         },
         "rateModal": {
           "thxTitle": "Merci !",
@@ -2097,7 +2097,7 @@
         "safeWalletTitle": "Safe{Wallet}",
         "title": "Soumettre la modification d'approbation du token"
       },
-      "decodedTooltip": "Cette signature est décodée par Rabby Wallet",
+      "decodedTooltip": "Cette signature est décodée par AstraSync Wallet",
       "importedAddress": "Adresse importée",
       "l2GasEstimateTooltip": "L'estimation du gaz pour la chaîne L2 n'inclut pas les frais de gaz L1. Les frais réels seront plus élevés que l'estimation actuelle.",
       "gasAccount": {
@@ -2163,7 +2163,7 @@
       "safeTx": {
         "selfHostConfirm": {
           "title": "Passer au service Safe de Rabby",
-          "content": "L'API Safe est indisponible. Passez au service Safe déployé par Rabby pour que votre Safe reste fonctionnel. <strong>Tous les signataires Safe doivent utiliser Rabby Wallet pour autoriser les transactions.<strong>",
+          "content": "L'API Safe est indisponible. Passez au service Safe déployé par Rabby pour que votre Safe reste fonctionnel. <strong>Tous les signataires Safe doivent utiliser AstraSync Wallet pour autoriser les transactions.<strong>",
           "button": "OK"
         }
       },
@@ -2307,7 +2307,7 @@
         "rate": "Taux de frais",
         "title": "Frais Rabby",
         "button": "Compris",
-        "bridgeDesc": "Rabby Wallet trouvera toujours le meilleur taux possible parmi les meilleurs agrégateurs et vérifiera la fiabilité de leurs offres. Rabby facture des frais de 0,25 %, qui sont automatiquement inclus dans le devis.",
+        "bridgeDesc": "AstraSync Wallet trouvera toujours le meilleur taux possible parmi les meilleurs agrégateurs et vérifiera la fiabilité de leurs offres. Rabby facture des frais de 0,25 %, qui sont automatiquement inclus dans le devis.",
         "swapDesc": "Le portefeuille Rabby trouvera toujours le meilleur taux possible parmi les principaux agrégateurs et vérifiera la fiabilité de leurs offres. Rabby prélève des frais de 0,25 % (0 % pour l'emballage), qui sont automatiquement inclus dans le devis."
       },
       "lowCreditModal": {
@@ -2391,7 +2391,7 @@
         "placeholder": "Entrer le mot de passe pour déverrouiller",
         "required": "Entrer le mot de passe pour déverrouiller"
       },
-      "title": "Rabby Wallet",
+      "title": "AstraSync Wallet",
       "btnForgotPassword": "Mot de passe oublié ?",
       "description": "Votre portefeuille incontournable pour Ethereum et EVM"
     },
@@ -2641,7 +2641,7 @@
       },
       "AddFromChainList": {
         "tips": {
-          "supported": "La chaîne déjà intégrée par Rabby Wallet",
+          "supported": "La chaîne déjà intégrée par AstraSync Wallet",
           "added": "Vous avez déjà ajouté cette chaîne."
         },
         "title": "Ajout rapide depuis Chainlist",
@@ -2869,7 +2869,7 @@
         "title4": "GasAccount est-il sûr",
         "title3": "GasAccount a-t-il des frais supplémentaires ?",
         "desc2": "Ajoutez des fonds à votre GasAccount et utilisez-le pour toute transaction. Lors de la signature, choisissez de payer le gaz avec des tokens natifs ou GasAccount, changez à tout moment.",
-        "desc3": "Rabby Wallet ne facture aucun frais supplémentaire. Vous ne payez que le gaz pour votre transaction et une petite quantité de gaz pour envoyer ce gaz de GasAccount à votre adresse.",
+        "desc3": "AstraSync Wallet ne facture aucun frais supplémentaire. Vous ne payez que le gaz pour votre transaction et une petite quantité de gaz pour envoyer ce gaz de GasAccount à votre adresse.",
         "desc4": "GasAccount ne nécessite aucune approbation ou permission de contrat. Vous déposez sur l'adresse GasAccount de Rabby, et Rabby envoie du gaz à votre adresse si nécessaire. Entièrement sécurisé par conception.",
         "desc1": "GasAccount est une nouvelle façon de payer les frais de gaz. Au lieu d'utiliser des jetons natifs sur chaque chaîne, vous pouvez utiliser un seul compte pour couvrir le gaz pour toutes vos adresses sur toutes les chaînes. Simple, optionnel et jamais à court de gaz."
       }
@@ -2880,7 +2880,7 @@
     },
     "newUserImport": {
       "guide": {
-        "title": "Bienvenue sur Rabby Wallet",
+        "title": "Bienvenue sur AstraSync Wallet",
         "importAddress": "J'ai déjà une adresse",
         "createNewAddress": "Créer une nouvelle adresse",
         "desc": "Votre portefeuille indispensable pour Ethereum et EVM"
@@ -2927,12 +2927,12 @@
         "addMoreAddr": "Ajoutez plus d'adresses à partir de cette Seed Phrase"
       },
       "readyToUse": {
-        "pin": "Épingler Rabby Wallet",
+        "pin": "Épingler AstraSync Wallet",
         "guides": {
-          "step2": "Épingler Rabby Wallet",
+          "step2": "Épingler AstraSync Wallet",
           "step1": "Cliquez sur l'icône de l'extension du navigateur"
         },
-        "desc": "Trouvez Rabby Wallet et épinglez-le",
+        "desc": "Trouvez AstraSync Wallet et épinglez-le",
         "extensionTip": "Cliquez sur <1/> puis sur <3/>",
         "title": "Votre portefeuille Rabby est prêt !"
       },
@@ -3006,8 +3006,8 @@
         "title": "Mot de passe oublié",
         "buttonNoData": "Définir le mot de passe",
         "button": "Commencer le processus de réinitialisation",
-        "description": "Rabby Wallet ne stocke pas votre mot de passe et ne peut pas vous aider à le récupérer. Réinitialisez votre portefeuille pour en configurer un nouveau.",
-        "descriptionNoData": "Rabby Wallet ne stocke pas votre mot de passe et ne peut pas vous aider à le récupérer. Définissez un nouveau mot de passe si vous l'avez oublié."
+        "description": "AstraSync Wallet ne stocke pas votre mot de passe et ne peut pas vous aider à le récupérer. Réinitialisez votre portefeuille pour en configurer un nouveau.",
+        "descriptionNoData": "AstraSync Wallet ne stocke pas votre mot de passe et ne peut pas vous aider à le récupérer. Définissez un nouveau mot de passe si vous l'avez oublié."
       },
       "reset": {
         "alert": {
@@ -3029,7 +3029,7 @@
       },
       "tip": {
         "button": "Définir le mot de passe",
-        "title": "Réinitialisation du Rabby Wallet terminée",
+        "title": "Réinitialisation du AstraSync Wallet terminée",
         "buttonNoData": "Ajouter une adresse",
         "description": "Créez un nouveau mot de passe pour continuer",
         "descriptionNoData": "Ajoutez votre adresse pour commencer"
@@ -3037,7 +3037,7 @@
       "success": {
         "button": "Terminé",
         "title": "Mot de passe défini avec succès",
-        "description": "Vous êtes prêt à utiliser Rabby Wallet."
+        "description": "Vous êtes prêt à utiliser AstraSync Wallet."
       }
     },
     "eip7702": {
@@ -3051,7 +3051,7 @@
       "step2Desc": "Actualiser et se connecter via MetaMask",
       "step1": "Étape 1",
       "noDappFound": "Aucune Dapp trouvée",
-      "alert": "Impossible de se connecter à un Dapp car il ne propose pas Rabby Wallet comme option ?",
+      "alert": "Impossible de se connecter à un Dapp car il ne propose pas AstraSync Wallet comme option ?",
       "step1Desc": "Permettre à Rabby de se déguiser en MetaMask sur le Dapp actuel",
       "title": "Connecter Rabby en se faisant passer pour MetaMask",
       "manage": "Gérer les Dapps autorisées",

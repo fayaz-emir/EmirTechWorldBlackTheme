@@ -1225,7 +1225,7 @@ function TableByEIP7702({
 }
 
 const ApprovalManagePage = () => {
-  useTitle('Approvals - Rabby Wallet');
+  useTitle('Approvals - AstraSync Wallet');
 
   useReloadPageOnCurrentAccountChanged();
 

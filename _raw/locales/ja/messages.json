@@ -329,7 +329,7 @@
       "gasAccountForGas": "GasAccount の USD を使用してガス代を支払う",
       "nativeTokenForGas": "{{chainName}}でのガス料金の支払いに{{tokenName}}トークンを使用",
       "chain": "チェーン",
-      "decodedTooltip": "この署名は Rabby Wallet によってデコードされます。",
+      "decodedTooltip": "この署名は AstraSync Wallet によってデコードされます。",
       "importedAddress": "インポートされたアドレス",
       "l2GasEstimateTooltip": "L2チェーンのガス見積もりにはL1ガス料金は含まれていません。実際の料金は現在の見積もりよりも高くなります。",
       "address": "アドレス",
@@ -351,7 +351,7 @@
         "selfHostConfirm": {
           "button": "OK",
           "title": "RabbyのSafe Serviceに切り替える",
-          "content": "Safe API は利用できません。Rabby によってデプロイされた Safe サービスに切り替えて、Safe を機能させ続けてください。<strong>すべての Safe 署名者は Rabby Wallet を使用してトランザクションを承認する必要があります。<strong>"
+          "content": "Safe API は利用できません。Rabby によってデプロイされた Safe サービスに切り替えて、Safe を機能させ続けてください。<strong>すべての Safe 署名者は AstraSync Wallet を使用してトランザクションを承認する必要があります。<strong>"
         }
       },
       "errorRetry": {
@@ -1867,7 +1867,7 @@
         "placeholder": "アンロックするにはパスワードを入力してください",
         "error": "パスワードが正しくありません"
       },
-      "title": "Rabby Wallet",
+      "title": "AstraSync Wallet",
       "btnForgotPassword": "パスワードをお忘れですか?",
       "description": "EthereumとEVMのための定番ウォレット"
     },
@@ -2635,7 +2635,7 @@
         "import": "インポートしました"
       },
       "readyToUse": {
-        "pin": "Rabby Wallet をピン留め",
+        "pin": "AstraSync Wallet をピン留め",
         "guides": {
           "step1": "ブラウザー拡張アイコンをクリックしてください",
           "step2": "Rabby Walletをピン留めする"
@@ -2732,11 +2732,11 @@
           "title": "データの保持先："
         },
         "button": "リセットを確認",
-        "title": "Rabby Wallet をリセット",
+        "title": "AstraSync Wallet をリセット",
         "confirm": "ボックスに<1>RESET</1>と入力して確認し、続行します。"
       },
       "tip": {
-        "title": "Rabby Wallet リセットが完了しました",
+        "title": "AstraSync Wallet リセットが完了しました",
         "description": "新しいパスワードを作成して続行してください",
         "buttonNoData": "アドレスを追加",
         "button": "パスワードを設定",
@@ -2744,7 +2744,7 @@
       },
       "success": {
         "button": "完了",
-        "description": "Rabby Wallet を使用する準備が整いました。",
+        "description": "AstraSync Wallet を使用する準備が整いました。",
         "title": "パスワードが正常に設定されました"
       }
     },
@@ -3255,7 +3255,7 @@
       "fast": "速い"
     },
     "OpenExternalWebsiteModal": {
-      "title": "Rabby Wallet を離れようとしています",
+      "title": "AstraSync Wallet を離れようとしています",
       "button": "続行",
       "content": "外部のウェブサイトを訪れようとしています。Rabby Walletはこのサイトの内容やセキュリティに責任を負いません。"
     },
