@@ -141,6 +141,8 @@ module.exports = {
         
         [`light-${rabbyCssPrefix.replace(/\-$/, '')}`]: rabbyColors.light,
         [`dark-${rabbyCssPrefix.replace(/\-$/, '')}`]: rabbyColors.dark,
+        'r-blue-light1': '#d9dbde',
+        'blue-light': '#d9dbde',
       }
     },
   },
