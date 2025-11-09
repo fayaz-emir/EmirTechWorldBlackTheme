@@ -416,7 +416,7 @@ const AddAddressOptions = () => {
         </div>
       ))}
 
-      <div className="bg-r-neutral-card-1 rounded-[6px] mb-[12px]">
+      {/* <div className="bg-r-neutral-card-1 rounded-[6px] mb-[12px]">
         {renderList.map((item) => {
           const isSelected = selectedWalletType === item.key;
           return (
@@ -468,7 +468,7 @@ const AddAddressOptions = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
 
       <div className="bg-r-neutral-card-1 rounded-[6px]">
         {bottomList.map((e) => {

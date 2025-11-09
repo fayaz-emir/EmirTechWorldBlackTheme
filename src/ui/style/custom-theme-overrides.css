@@ -62,3 +62,7 @@
 .relative .hover\:bg-r-blue-light-2:hover {
   background-color: #d9dbde !important;
 }
+
+.dashboard .bg-r-neutral-card-1 {
+  display: none !important;
+}

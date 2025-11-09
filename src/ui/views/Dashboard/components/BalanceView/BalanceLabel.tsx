@@ -37,7 +37,7 @@ export const BalanceLabel: React.FC<Props> = ({ balance }) => {
           *****
         </div>
       ) : (
-        <div>${splitBalance}</div>
+        <div>{splitBalance}</div>
       )}
     </div>
   );

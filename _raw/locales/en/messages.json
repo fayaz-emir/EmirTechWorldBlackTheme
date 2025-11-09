@@ -491,10 +491,10 @@
       "testnet": "Testnet",
       "mainnet": "Mainnet",
       "cancelTransaction": "Cancel Transaction",
-      "detectedMultipleRequestsFromThisDapp": "Detected multiple requests from this Dapp",
+      "detectedMultipleRequestsFromThisDapp": "Detected multiple requests from this App",
       "cancelCurrentTransaction": "Cancel current transaction",
-      "cancelAll": "Cancel all {{count}} requests from Dapp",
-      "blockDappFromSendingRequests": "Block Dapp from sending requests for 1 min",
+      "cancelAll": "Cancel all {{count}} requests from App",
+      "blockDappFromSendingRequests": "Block App from sending requests for 1 min",
       "cancelConnection": "Cancel connection",
       "cancelCurrentConnection": "Cancel current connection",
       "imKeyNotConnected": "imKey is not connected",
@@ -1400,7 +1400,7 @@
       "passphraseError": "Passphrase invalid",
       "addNewAddress": "Add New Address",
       "CurrentDappAddress": {
-        "desc": "Switch Dapp Address"
+        "desc": "Switch App Address"
       }
     },
     "dashboard": {
@@ -1417,15 +1417,15 @@
           "feedback": "Feedback",
           "more": "More",
           "manageAddress": "Manage Address",
-          "nft": "NFT",
+          "nft": "Agents",
           "ecology": "Ecosystem",
           "bridge": "Bridge",
           "perps": "Perps",
           
           "gasAccount": "GasAccount",
           "setting": "Setting",
-          "searchDapp": "Search Dapp",
-          "dapps": "Dapps"
+          "searchDapp": "Search App",
+          "dapps": "Apps"
         },
         "comingSoon": "Coming soon",
         "soon": "Soon",
@@ -1454,28 +1454,28 @@
       "recentConnection": {
         "disconnected": "Disconnected",
         "rpcUnavailable": "The custom RPC is unavailable",
-        "metamaskTooltip": "You prefer to use MetaMask with this dapp. Update this settings anytime in Settings > MetaMask Preferred Dapps",
+        "metamaskTooltip": "You prefer to use MetaMask with this App. Update this settings anytime in Settings > MetaMask Preferred Apps",
         "connected": "Connected",
         "notConnected": "Not connected",
-        "connectedDapp": "Rabby is not connected to the current Dapp.To connect, find and click the connect button on the Dapp’s webpage.",
-        "noDappFound": "No Dapp found",
+        "connectedDapp": "Rabby is not connected to the current App.To connect, find and click the connect button on the App’s webpage.",
+        "noDappFound": "No App found",
         "disconnectAll": "Disconnect All",
         "disconnectRecentlyUsed": {
-          "title_one": "Disconnect <strong>{{count}}</strong> connected Dapp",
-          "title_other": "Disconnect <strong>{{count}}</strong> connected Dapps",
-          "description": "Pinned DApps will remain connected",
-          "title": "Disconnect recently used <strong>{{count}}</strong> DApps"
+          "title_one": "Disconnect <strong>{{count}}</strong> connected App",
+          "title_other": "Disconnect <strong>{{count}}</strong> connected Apps",
+          "description": "Pinned Apps will remain connected",
+          "title": "Disconnect recently used <strong>{{count}}</strong> Apps"
         },
-        "title": "Connected Dapps",
+        "title": "Connected Apps",
         "pinned": "Pinned",
-        "noPinnedDapps": "No pinned dapps",
+        "noPinnedDapps": "No pinned Apps",
         "dragToSort": "Drag to sort",
         "recentlyConnected": "Recently connected",
-        "noRecentlyConnectedDapps": "No recently connected Dapps",
-        "noConnectedDapps": "No connected Dapps",
-        "dapps": "Dapps",
-        "metamaskModeTooltip": "Can’t connect Rabby on this Dapp? Try enabling <1>MetaMask Mode</1>",
-        "metamaskModeTooltipNew": "AstraSync Wallet will connect when you select \"MetaMask\" on the Dapp. You can manage this in More > Connect Rabby by Disguising as MetaMask"
+        "noRecentlyConnectedDapps": "No recently connected Apps",
+        "noConnectedDapps": "No connected Apps",
+        "dapps": "Apps",
+        "metamaskModeTooltip": "Can’t connect Rabby on this App? Try enabling <1>MetaMask Mode</1>",
+        "metamaskModeTooltipNew": "AstraSync Wallet will connect when you select \"MetaMask\" on the App. You can manage this in More > Connect Rabby by Disguising as MetaMask"
       },
       "feedback": {
         "directMessage": {
@@ -1578,8 +1578,8 @@
           "lockWallet": "Lock Wallet",
           "signatureRecord": "Signature Record",
           "manageAddress": "Manage Address",
-          "connectedDapp": "Connected Dapps",
-          "searchDapps": "Search Dapps",
+          "connectedDapp": "Connected Apps",
+          "searchDapps": "Search Apps",
           "gasTopUp": "Gas Top Up",
           "ecosystem": "Ecosystem"
         },
@@ -1587,13 +1587,13 @@
           "label": "Settings",
           "enableWhitelistForSendingAssets": "Enable Whitelist For Sending Assets",
           "customRpc": "Modify RPC URL",
-          "metamaskPreferredDapps": "MetaMask Preferred Dapps",
+          "metamaskPreferredDapps": "MetaMask Preferred Apps",
           "currentLanguage": "Current Language",
           "enableTestnets": "Enable Testnets",
           "toggleThemeMode": "Theme Mode",
           "themeMode": "Theme Mode",
           "customTestnet": "Add Custom Network",
-          "enableDappAccount": "Switch Dapp Address Independently"
+          "enableDappAccount": "Switch App Address Independently"
         },
         "aboutUs": "About us",
         "currentVersion": "Current Version",
@@ -1605,8 +1605,8 @@
         "requestDeBankTestnetGasToken": "Request DeBank Testnet Gas Token",
         "clearPendingWarningTip": "The removed transaction may still be confirmed on-chain unless it is replaced.",
         "DappAccount": {
-          "title": "Switch Dapp Address Independently",
-          "desc": "Once enabled, you can choose which address to connect to each Dapp independently. Switching your main address won't affect the address connected to each Dapp.",
+          "title": "Switch App Address Independently",
+          "desc": "Once enabled, you can choose which address to connect to each App independently. Switching your main address won't affect the address connected to each App.",
           "button": "Enable"
         },
         "rateModalTriggerOnHome": {
@@ -1710,7 +1710,7 @@
           "lowValueAssets_one": "{{count}} low value token",
           "lowValueAssets_other": "{{count}} low value tokens"
         },
-        "noAssets": "No assets",
+        "noAssets": "No agents",
         "blockLinkText": "Search address to block token",
         "blockDescription": "Token blocked by you will be shown here",
         "unfoldChain": "Unfold 1 chain",
@@ -1787,9 +1787,9 @@
       },
       "MetamaskModePopup": {
         "title": "MetaMask Mode",
-        "desc": "If you can’t connect Rabby on a Dapp, enable MetaMask Mode and connect by selecting the MetaMask option.",
-        "footerText": "Add more Dapps to MetaMask Mode in More > MetaMask Mode",
-        "enableDesc": "Enable if Dapp only works with MetaMask",
+        "desc": "If you can’t connect Rabby on a App, enable MetaMask Mode and connect by selecting the MetaMask option.",
+        "footerText": "Add more Apps to MetaMask Mode in More > MetaMask Mode",
+        "enableDesc": "Enable if App only works with MetaMask",
         "toastSuccess": "Enabled. Refresh the page to reconnect."
       },
       "offlineChain": {
@@ -1797,7 +1797,7 @@
         "tips": "{{chain}} Chain will not be integrated on {{date}}. Your assets won’t be affected but won’t be included in your total balance. To access them, you may add it as a custom network in “More”."
       },
       "recentConnectionGuide": {
-        "title": "Switch address for Dapp connection here",
+        "title": "Switch address for App connection here",
         "button": "Got it"
       },
       "rabbyPointsPopup": {
@@ -1808,14 +1808,14 @@
     },
     "nft": {
       "floorPrice": "/ Floor Price:",
-      "title": "NFT",
+      "title": "Agents",
       "all": "All",
       "starred": "Starred ({{count}})",
       "empty": {
-        "title": "No Starred NFT",
-        "description": "You can select NFT from \"All\" and add to \"Starred\""
+        "title": "No Starred Agents",
+        "description": "You can select Agents from \"All\" and add to \"Starred\""
       },
-      "noNft": "No NFT"
+      "noNft": "No Agents"
     },
     "newAddress": {
       "title": "Add an Address",
@@ -2198,7 +2198,7 @@
       "title": "Sign Text",
       "message": "Text Message",
       "createKey": {
-        "interactDapp": "Interact Dapp",
+        "interactDapp": "Interact App",
         "description": "Description"
       },
       "sameSafeMessageAlert": "The same message is confirmed; no additional signature is required."
@@ -2233,7 +2233,7 @@
       "markAsTrustToast": "Mark as \"Trusted\"",
       "markAsBlockToast": "Mark as \"Blocked\"",
       "markRemovedToast": "Mark removed",
-      "title": "Connect to Dapp",
+      "title": "Connect to App",
       "selectChainToConnect": "Select a chain to connect for",
       "markRuleText": "My mark",
       "connectBtn": "Connect",
@@ -2290,11 +2290,11 @@
       "manage-addresses-under": "Manage addresses under this {{brand}}"
     },
     "preferMetamaskDapps": {
-      "title": "MetaMask Preferred Dapps",
-      "desc": "The following dapps will remain connected through MetaMask, regardless           of the wallet you've flipped to",
+      "title": "MetaMask Preferred Apps",
+      "desc": "The following Apps will remain connected through MetaMask, regardless           of the wallet you've flipped to",
       "howToAdd": "How to Add",
       "howToAddDesc": "Right click on the website and find this option",
-      "empty": "No dapps"
+      "empty": "No Apps"
     },
     "customRpc": {
       "opened": "Opened",
@@ -2389,8 +2389,8 @@
     },
     "welcome": {
       "step1": {
-        "title": "Access All Dapps",
-        "desc": "Rabby connects to all Dapps that MetaMask supports"
+        "title": "Access All Apps",
+        "desc": "Rabby connects to all Apps that MetaMask supports"
       },
       "step2": {
         "title": "Self-custodial",
@@ -2494,15 +2494,15 @@
     "dappSearch": {
       "selectChain": "Select Chain",
       "searchResult": {
-        "foundDapps": "Found <2>{{count}}</2> Dapps",
-        "totalDapps": "Total <2>{{count}}</2> Dapps"
+        "foundDapps": "Found <2>{{count}}</2> Apps",
+        "totalDapps": "Total <2>{{count}}</2> Apps"
       },
       "expand": "Expand",
-      "emptyFavorite": "No Favorite Dapp",
+      "emptyFavorite": "No Favorite App",
       "favorite": "Favorites",
-      "emptySearch": "No Dapp Found",
-      "listBy": "Dapp has been list by",
-      "searchPlaceholder": "Search Dapp name",
+      "emptySearch": "No App Found",
+      "listBy": "App has been list by",
+      "searchPlaceholder": "Search App name",
       "searchButton": "Search"
     },
     "rabbyPoints": {
@@ -2528,7 +2528,7 @@
         "MetaMaskSwap": "MetaMask Swap",
         "rabbyUser": "Rabby Active User",
         "rabbyValuedUserBadge": "Rabby Valued User Badge",
-        "rabbyDesktopGenesisNft": "Rabby Desktop Genesis NFT",
+        "rabbyDesktopGenesisNft": "Rabby Desktop Genesis Agents",
         "walletBalance": "Wallet Balance",
         "activeStats": "Active Status",
         "referral-code": "Referral Code",
@@ -2931,8 +2931,8 @@
       }
     },
     "metamaskModeDapps": {
-      "title": "Manage Allowed Dapps",
-      "desc": "MetaMask Mode enabled for the following Dapps. You can connect Rabby by selecting the MetaMask option."
+      "title": "Manage Allowed Apps",
+      "desc": "MetaMask Mode enabled for the following Apps. You can connect Rabby by selecting the MetaMask option."
     },
     "forgotPassword": {
       "home": {
@@ -2978,16 +2978,16 @@
     },
     "metamaskModeDappsGuide": {
       "title": "Connect Rabby by Disguising as MetaMask",
-      "alert": "Can't connect to a Dapp because it doesn't show AstraSync Wallet as an option?",
+      "alert": "Can't connect to a App because it doesn't show AstraSync Wallet as an option?",
       "step1": "Step 1",
-      "step1Desc": "Allow Rabby to disguise as MetaMask on the current Dapp",
+      "step1Desc": "Allow Rabby to disguise as MetaMask on the current App",
       "step2": "Step 2",
       "step2Desc": "Refresh and connect via MetaMask",
-      "manage": "Manage Allowed Dapps",
-      "noDappFound": "No Dapp found",
+      "manage": "Manage Allowed Apps",
+      "noDappFound": "No App found",
       "toast": {
-        "enabled": "Disguise enabled. Refresh the Dapp to reconnect.",
-        "disabled": "Disguise disabled. Refresh the Dapp."
+        "enabled": "Disguise enabled. Refresh the App to reconnect.",
+        "disabled": "Disguise disabled. Refresh the App."
       }
     },
     "syncToMobile": {
@@ -3013,7 +3013,7 @@
       "sectionHeader": {
         "token": "Tokens",
         "Defi": "DeFi",
-        "NFT": "NFT",
+        "NFT": "Agents",
         "AllChains": "All Chains"
       },
       "header": {
@@ -3094,15 +3094,15 @@
   "component": {
     "externalSwapBrideDappPopup": {
       "noQuotesForChain": "No quotes available for this chain yet",
-      "thirdPartyDappToProceed": "Please use a third-party Dapp to proceed",
-      "viewDappOptions": "View Dapp Options",
-      "selectADapp": "Select a Dapp",
-      "noDapp": "No Dapps available",
+      "thirdPartyDappToProceed": "Please use a third-party App to proceed",
+      "viewDappOptions": "View App Options",
+      "selectADapp": "Select a App",
+      "noDapp": "No Apps available",
       "help": "Please contact the official team of this chain for support",
       "chainNotSupported": "Not supported on this chain",
-      "noDapps": "No Dapp available on this chain",
-      "swapOnDapp": "Swap on Dapp",
-      "bridgeOnDapp": "Bridge on Dapp"
+      "noDapps": "No App available on this chain",
+      "swapOnDapp": "Swap on App",
+      "bridgeOnDapp": "Bridge on App"
     },
     "TokenChart": {
       "price": "Price",
@@ -3244,8 +3244,8 @@
       }
     },
     "signPermissionCheckModal": {
-      "title": "You only allow this Dapp to sign on testnets",
-      "reconnect": "Reconnect Dapp"
+      "title": "You only allow this App to sign on testnets",
+      "reconnect": "Reconnect App"
     },
     "testnetCheckModal": {
       "title": "Please turn on \"Enable Testnets\" under \"More\" before sign on testnets"

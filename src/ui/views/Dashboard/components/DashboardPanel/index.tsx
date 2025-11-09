@@ -142,6 +142,40 @@ const Container = styled.div`
       padding: 2px 4.5px !important;
     }
   }
+
+  .panel-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    overflow: visible;
+  }
+
+  .coming-soon-text {
+    position: absolute;
+    bottom: -5px;
+    right: 25%;
+    transform: translateX(50%);
+    background: #fff7e6;
+    color: #ff9f00;
+    font-size: 7px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    border: 1px solid #ffb84d;
+    box-shadow: 0 2px 4px rgba(255, 159, 0, 0.2);
+    pointer-events: none;
+    white-space: nowrap;
+    animation: badge-pop 0.4s ease-out;
+    z-index: 2;
+  }
+
+  .coming-soon-text {
+    animation: pulse-glow 3s infinite ease-in-out;
+  }
 `;
 
 export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
@@ -247,6 +281,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconSwapCC,
       eventKey: 'Swap',
       content: t('page.dashboard.home.panel.swap'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         history.push('/dex-swap?rbisource=dashboard');
       },
@@ -255,6 +291,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconSendCC,
       eventKey: 'Send',
       content: t('page.dashboard.home.panel.send'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         history.push('/send-token?rbisource=dashboard');
       },
@@ -263,6 +301,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconBridgeCC,
       eventKey: 'Bridge',
       content: t('page.dashboard.home.panel.bridge'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         history.push('/bridge');
       },
@@ -271,6 +311,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconReceiveCC,
       eventKey: 'Receive',
       content: t('page.dashboard.home.panel.receive'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         setIsShowReceiveModal(true);
       },
@@ -288,6 +330,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconTransactionsCC,
       eventKey: 'Transactions',
       content: t('page.dashboard.home.panel.transactions'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         history.push('/history');
       },
@@ -296,6 +340,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconApprovalsCC,
       eventKey: 'Approvals',
       content: t('page.dashboard.home.panel.approvals'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: async (evt) => {
         openInternalPageInTab('approval-manage');
       },
@@ -306,12 +352,16 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconSettingCC,
       eventKey: 'More',
       content: t('page.dashboard.home.panel.setting'),
+      disabled: false,
+      commingSoonBadge: false,
       onClick: onSettingClick,
     } as IPanelItem,
     nft: {
       icon: RcIconNftCC,
-      eventKey: 'NFT',
+      eventKey: 'Agents',
       content: t('page.dashboard.home.panel.nft'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         history.push('/nft');
       },
@@ -320,33 +370,35 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconEco,
       eventKey: 'Ecology',
       content: t('page.dashboard.home.panel.ecology'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         setIsShowEcologyModal(true);
       },
     } as IPanelItem,
-    gasAccount: {
-      icon: RcIconGasAccountCC,
-      eventKey: 'GasAccount',
-      content: t('page.dashboard.home.panel.gasAccount'),
-      onClick: () => {
-        history.push('/gas-account');
-      },
-      subContent: hasGiftEligibility ? (
-        <div className="absolute top-[6px] right-[6px]">
-          <div
-            className={clsx(
-              'text-r-green-default text-[10px] leading-[12px] font-medium',
-              'flex items-center px-[3px] py-[2px] rounded-[4px] bg-r-green-light'
-            )}
-          >
-            <RcIconGift viewBox="0 0 14 14" />
-            {Number.isInteger(giftUsdValue)
-              ? '$' + splitNumberByStep(giftUsdValue)
-              : formatGasAccountUsdValueV2(giftUsdValue)}
-          </div>
-        </div>
-      ) : null,
-    } as IPanelItem,
+    // gasAccount: {
+    //   icon: RcIconGasAccountCC,
+    //   eventKey: 'GasAccount',
+    //   content: t('page.dashboard.home.panel.gasAccount'),
+    //   onClick: () => {
+    //     history.push('/gas-account');
+    //   },
+    //   subContent: hasGiftEligibility ? (
+    //     <div className="absolute top-[6px] right-[6px]">
+    //       <div
+    //         className={clsx(
+    //           'text-r-green-default text-[10px] leading-[12px] font-medium',
+    //           'flex items-center px-[3px] py-[2px] rounded-[4px] bg-r-green-light'
+    //         )}
+    //       >
+    //         <RcIconGift viewBox="0 0 14 14" />
+    //         {Number.isInteger(giftUsdValue)
+    //           ? '$' + splitNumberByStep(giftUsdValue)
+    //           : formatGasAccountUsdValueV2(giftUsdValue)}
+    //       </div>
+    //     </div>
+    //   ) : null,
+    // } as IPanelItem,
     // points: {
     //   icon: RcIconPointsCC,
     //   eventKey: 'Rabby Points',
@@ -363,36 +415,36 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
     //     openInternalPageInTab('sync');
     //   },
     // } as IPanelItem,
-    perps: {
-      icon: RcIconPerpsCC,
-      eventKey: 'Perps',
-      iconClassName: 'icon-perps',
-      subContent: perpsPositionInfo.show ? (
-        <div
-          className={clsx(
-            'absolute bottom-[4px] text-[11px] leading-[13px] font-medium',
-            perpsPositionInfo.pnl > 0
-              ? 'text-r-green-default'
-              : 'text-r-red-default'
-          )}
-        >
-          {perpsPositionInfo.pnl >= 0 ? '+' : '-'}$
-          {splitNumberByStep(Math.abs(perpsPositionInfo.pnl).toFixed(2))}
-        </div>
-      ) : isFetching ? (
-        <div className="absolute bottom-[4px] text-[11px] font-medium">
-          <Skeleton.Button
-            active={true}
-            className="h-[10px] block rounded-[2px]"
-            style={{ width: 42 }}
-          />
-        </div>
-      ) : null,
-      content: t('page.dashboard.home.panel.perps'),
-      onClick: () => {
-        history.push('/perps');
-      },
-    } as IPanelItem,
+    // perps: {
+    //   icon: RcIconPerpsCC,
+    //   eventKey: 'Perps',
+    //   iconClassName: 'icon-perps',
+    //   subContent: perpsPositionInfo.show ? (
+    //     <div
+    //       className={clsx(
+    //         'absolute bottom-[4px] text-[11px] leading-[13px] font-medium',
+    //         perpsPositionInfo.pnl > 0
+    //           ? 'text-r-green-default'
+    //           : 'text-r-red-default'
+    //       )}
+    //     >
+    //       {perpsPositionInfo.pnl >= 0 ? '+' : '-'}$
+    //       {splitNumberByStep(Math.abs(perpsPositionInfo.pnl).toFixed(2))}
+    //     </div>
+    //   ) : isFetching ? (
+    //     <div className="absolute bottom-[4px] text-[11px] font-medium">
+    //       <Skeleton.Button
+    //         active={true}
+    //         className="h-[10px] block rounded-[2px]"
+    //         style={{ width: 42 }}
+    //       />
+    //     </div>
+    //   ) : null,
+    //   content: t('page.dashboard.home.panel.perps'),
+    //   onClick: () => {
+    //     history.push('/perps');
+    //   },
+    // } as IPanelItem,
     // searchDapp: {
     //   icon: RcIconSearchCC,
     //   eventKey: 'Search Dapp',
@@ -403,8 +455,10 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
     // } as IPanelItem,
     dapps: {
       icon: RcIconDappsCC,
-      eventKey: 'Dapps ',
+      eventKey: 'Apps ',
       content: t('page.dashboard.home.panel.dapps'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         setIsShowDappsPopup(true);
       },
@@ -413,6 +467,8 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
       icon: RcIconManageCC,
       eventKey: 'Manage Address',
       content: t('page.dashboard.home.panel.manageAddress'),
+      disabled: true,
+      commingSoonBadge: true,
       onClick: () => {
         history.push('/settings/address');
       },
@@ -428,11 +484,11 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
           'receive',
           'transactions',
           'security',
-          'perps',
+          //'perps',
           //'points',
           //'mobile',
           'nft',
-          'gasAccount',
+          //'gasAccount',
           //'searchDapp',
           'dapps',
           'manageAddress',
@@ -445,11 +501,11 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
           'receive',
           'transactions',
           'security',
-          'perps',
+          //'perps',
           //'points',
           //'mobile',
           'nft',
-          'gasAccount',
+          //'gasAccount',
           //'searchDapp',
           'dapps',
           'manageAddress',
@@ -486,19 +542,18 @@ export const DashboardPanel: React.FC<{ onSettingClick?(): void }> = ({
           return (
             <div key={panelKey} className="bg-r-neutral-bg-2">
               {item.disabled ? (
-                <Tooltip
-                  {...(item.commingSoonBadge && { visible: false })}
-                  title={
-                    item.disableReason || t('page.dashboard.home.comingSoon')
-                  }
-                  overlayClassName="rectangle direction-tooltip"
-                  autoAdjustOverflow={false}
-                >
-                  <div key={index} className="disable-direction">
-                    <ThemeIcon src={item.icon} className="images" />
-                    <div className="panel-item-label">{item.content} </div>
+                <div key={index} className="panel-item disabled">
+                  <ThemeIcon src={item.icon} className="panel-item-icon" />
+                  <div className="panel-item-label">
+                    {item.content}
+                    {item.commingSoonBadge && (
+                      <span className="coming-soon-text">
+                        {/* {t('page.dashboard.home.soon') */}
+                        Coming Soon
+                      </span>
+                    )}
                   </div>
-                </Tooltip>
+                </div>
               ) : (
                 <div
                   key={index}
