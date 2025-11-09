@@ -143,16 +143,6 @@ const Container = styled.div`
     }
   }
 
-  .panel-item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s ease;
-    overflow: visible;
-  }
-
   .coming-soon-text {
     position: absolute;
     bottom: -5px;

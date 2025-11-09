@@ -21,7 +21,7 @@ const create = (
     chrome.notifications.create(notificationId, {
       type: 'basic',
       title,
-      iconUrl: chrome.runtime.getURL('./images/icon-64.png'),
+      iconUrl: chrome.runtime.getURL('./images/AstraSync.png'),
       message,
       priority,
       requireInteraction: false,
